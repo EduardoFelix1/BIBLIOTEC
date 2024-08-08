@@ -1,0 +1,102 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para o título principal */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Estilo para o contêiner principal que vai alinhar os formulários e os resultados lado a lado */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Estilo para os formulários */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os rótulos (labels) */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Estilo para os campos de entrada de texto */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #34495e;
+}
+
+/* Estilo para a área de resultados */
+#resultado {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-left: 20px; /* Espaçamento entre o formulário e os resultados */
+    flex-grow: 1; /* Faz com que o resultado ocupe o espaço restante */
+}
+
+/* Estilo individual para cada livro na lista de resultados */
+.livro {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título do livro */
+.livro h3 {
+    margin: 0 0 10px;
+    color: #2c3e50;
+}
+
+/* Estilo para os detalhes do livro */
+.livro p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Estilo para destacar os rótulos dentro dos detalhes */
+.livro p span {
+    font-weight: bold;
+    color: #34495e;
+}

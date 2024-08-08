@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIBLIOTECA</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <h1>BIBLIOTECA</h1>
+
+    <div class="container">
+        <div>
+            <form id="form_pesquisar">
+                <label for="pesquisar">Pesquisar</label>
+                <input type="text" id="pesquisar" name="pesauisar" placeholder="Digite o nome do livro">
+                <button>BUSCAR</button>
+            </form>
+
+            <br>
+            <br>
+
+            <form id="formulario">
+                <label for="titulo">Titulo</label>
+                <input type="text" id="titulo" name="titulo" placeholder="Digite o nome do titulo">
+                <br>
+                <br>
+                <label for="autor">Autor</label>
+                <input type="text" id="autor" name="autor" placeholder="Digite o nome do autor">
+                <br>
+                <br>
+                <label for="genero">Gênero</label>
+                <input type="text" id="genero" name="genero" placeholder="Digite o nome do genero">
+                <br>
+                <br>
+                <label for="ano_publicado">Ano Publicado</label>
+                <input type="text" id="ano_publicado" name="ano_publicado" placeholder="Digite o nome do ano publicado">
+                <br>
+                <button id="cadastrar">Cadastrar</button>
+            </form>
+        </div>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
